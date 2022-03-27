@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+main h2 {
+    text-align: center;
+}
+
+#booking {
+    padding: 30px;
+    margin-top: 40px;
+    border: 4px solid rgb(141, 141, 141);
+    background-color: rgb(211, 211, 211);
+    border-radius: 20px 20px 2px 2px;
+    box-shadow: 2px 2px 4px rgb(141, 141, 141);
+}
+
+#booking fieldset {
+    background-color: aliceblue;
+    box-shadow: 2px 2px 4px rgb(64, 70, 100);
+    border-radius: 15px 15px 0 0;
+    color: rgb(64, 70, 100);
+    margin-bottom: 20px;
+}
+
+#booking fieldset div {
+    display: grid;
+    gap: 0.8em;
+}
+
+#ask input {
+    width: 50ch;
+}
+
+#ask #number {
+    width: 15ch;
+}
+
+
+#booking legend {
+    font-weight: bold;
+    color: rgb(64, 70, 100)
+}
+
+#boxar {
+    display: grid;
+    overflow: auto;
+}
+
+#box1 {
+    text-align: center;
+    background-color: bisque;
+    color: rgb(64, 70, 100);
+    border: 4px solid rgb(141, 141, 141);
+    max-width: 90%;
+    margin-left: 16px;
+    margin-top: 50%;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 2px 2px 4px rgb(64, 70, 100);
+}
